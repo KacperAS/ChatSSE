@@ -1,14 +1,16 @@
-import numpy as np
-import json
-import re
-import tensorflow as tf
-import random
-import spacy
+import numpy as np #for maths
+import json #for json files
+import re #for regular expressions
+import tensorflow as tf #for machine learing
+import random #for the randomizer
+import spacy #for nlp
 nlp = spacy.load('en_core_web_sm')
 
+# import data for training
 with open(r"C:\Users\kackr\OneDrive\Pulpit\data.json") as f:
     intents = json.load(f)
 
+# preprocess data
 def preprocessing(line):
     line = re.sub(r'[^a-zA-z.?!\']', ' ', line)
     line = re.sub(r'[ ]+', ' ', line)
@@ -43,7 +45,7 @@ def tokenize_data(input_list):
     
     return tokenizer, input_seq
 
-# preprocess input data
+# Tokenize input data
 tokenizer, input_tensor = tokenize_data(inputs)
 
 def create_categorical_target(targets):
@@ -108,7 +110,7 @@ def response(sentence):
 
     pred_class = np.argmax(pred.numpy(), axis=1)
     
-    # choice a random response for predicted sentence
+    # choose a random response for predicted sentence
     return random.choice(intent_doc[trg_index_word[pred_class[0]]]), trg_index_word[pred_class[0]]
 
 # chat with bot

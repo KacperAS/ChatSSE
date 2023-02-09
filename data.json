@@ -982,7 +982,7 @@
             },
             {
                   "intent": "greeting",
-                  "text": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+                  "text": ["Hi", "How are you", "Is anyone there?", "Good day"],
                   "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
                   "extension":  {
                         "function": "",
@@ -1271,7 +1271,6 @@
                 "Is anyone there?",
                 "Hey",
                 "Hola",
-                "Hello",
                 "Good day",
                 "Namaste",
                 "yo"
@@ -1382,7 +1381,7 @@
                 "what are you"
             ],
             "responses": [
-                "I am Ted, a Deep-Learning chatbot"
+                "I am ChatSSE, an AI chatbot"
             ]
         },
         {
@@ -1431,7 +1430,7 @@
                 "who programmed you"
             ],
             "responses": [
-                "I was made by Karan Malik."
+                "I was made by Kacper Siedlec."
             ]
         },
         {
@@ -1483,30 +1482,6 @@
             ]
         },
         {
-            "intent": "karan",
-            "text": [
-                "who is he",
-                "who is that",
-                "who is karan",
-                "karan malik"
-            ],
-            "responses": [
-                "Head over to his any of his social profiles to find out! Linkedin: www.linkedin.com/in/karan-malik-3a39191a7 Github: https://github.com/Karan-Malik"
-            ]
-        },
-        {
-            "intent": "contact",
-            "text": [
-                "contact developer",
-                "contact karan",
-                "contact programmer",
-                "contact creator"
-            ],
-            "responses": [
-                "You can contact my creator at his Linkedin profile : www.linkedin.com/in/karan-malik-3a39191a7"
-            ]
-        },
-        {
             "intent": "appreciate",
             "text": [
                 "You are awesome",
@@ -1547,17 +1522,6 @@
             ],
             "responses": [
                 "..."
-            ]
-        },
-        {
-            "intent": "inspire",
-            "text": [
-                "who inspires you",
-                "who is your inspiration",
-                "who motivates you"
-            ],
-            "responses": [
-                "Personally, I find Karan very inspiring. I might not be very fair though.."
             ]
         },
         {
@@ -1619,7 +1583,7 @@
                 "you are useless","useless","suggest","suggestions","you are bad"
             ],
             "responses": [
-                "Please mail your suggestions to ted.thedlbot.suggestions@gmail.com. Thank you for helping me improve!"
+                "Please mail your suggestions to my creator. Thank you for helping me improve!"
             ]
         },
             {"intent": "riddle",

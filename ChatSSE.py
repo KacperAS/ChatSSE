@@ -6,7 +6,7 @@ import random
 import spacy
 nlp = spacy.load('en_core_web_sm')
 
-with open('data.json') as f:
+with open(r"C:\Users\kackr\OneDrive\Pulpit\data.json") as f:
     intents = json.load(f)
 
 def preprocessing(line):

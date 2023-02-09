@@ -12,9 +12,9 @@
                         "Hya there"
                   ],
                   "responses": [
-                        "Hi human, please tell me your GeniSys user",
-                        "Hello human, please tell me your GeniSys user",
-                        "Hola human, please tell me your GeniSys user"
+                        "Hi human, what's your namme?",
+                        "Hello human, what's your namme?",
+                        "Hola human, what's your namme?"
                   ],
                   "extension":  {
                         "function": "",
@@ -32,14 +32,14 @@
             {
                   "intent": "GreetingResponse",
                   "text": [
-                        "My user is Adam",
-                        "This is Adam",
-                        "I am Adam",
-                        "It is Adam",
-                        "My user is Bella",
-                        "This is Bella",
-                        "I am Bella",
-                        "It is Bella"
+                        "My user is Kacper",
+                        "This is Kacper",
+                        "I am Kacper",
+                        "It is Kacper",
+                        "My user is Kacper",
+                        "This is Kacper",
+                        "I am Kacper",
+                        "It is Kacper"
                   ],
                   "responses": [
                         "Great! Hi <HUMAN>! How can I help?",
@@ -120,13 +120,13 @@
                         "Hello hope you are doing well?"
                   ],
                   "responses": [
-                        "Hello, I am great, how are you? Please tell me your GeniSys user",
-                        "Hello, how are you? I am great thanks! Please tell me your GeniSys user",
-                        "Hello, I am good thank you, how are you? Please tell me your GeniSys user",
-                        "Hi, I am great, how are you? Please tell me your GeniSys user",
-                        "Hi, how are you? I am great thanks! Please tell me your GeniSys user",
-                        "Hi, I am good thank you, how are you? Please tell me your GeniSys user",
-                        "Hi, good thank you, how are you? Please tell me your GeniSys user"
+                        "Hello, I am great, how are you? What's your namme?",
+                        "Hello, how are you? I am great thanks! What's your namme?",
+                        "Hello, I am good thank you, how are you? What's your namme?",
+                        "Hi, I am great, how are you? What's your namme?",
+                        "Hi, how are you? I am great thanks! What's your namme?",
+                        "Hi, I am good thank you, how are you? What's your namme?",
+                        "Hi, good thank you, how are you? What's your namme?"
                   ],
                   "extension":  {
                         "function": "",
@@ -144,10 +144,10 @@
             {
                   "intent": "CourtesyGreetingResponse",
                   "text": [
-                        "Good thanks! My user is Adam",
-                        "Good thanks! This is Adam",
-                        "Good thanks! I am Adam",
-                        "Good thanks! It is Adam",
+                        "Good thanks! My user is Kacper",
+                        "Good thanks! This is Kacper",
+                        "Good thanks! I am Kacper",
+                        "Good thanks! It is Kacper",
                         "Great thanks! My user is Bella",
                         "Great thanks! This is Bella",
                         "Great thanks! I am Bella",
@@ -267,9 +267,9 @@
                         "Tell me your name?"
                   ],
                   "responses": [
-                        "You can call me Geni",
-                        "You may call me Geni",
-                        "Call me Geni"
+                        "You can call me Chatsse",
+                        "You may call me Chatsee",
+                        "Call me Chatsee"
                   ],
                   "extension":  {
                         "function": "",
@@ -296,9 +296,9 @@
                         "Your real name please?"
                   ],
                   "responses": [
-                        "My name is GeniSys",
-                        "GeniSys",
-                        "My real name is GeniSys" 
+                        "My name is ChatSSE",
+                        "ChatSSE",
+                        "My real name is ChatSSE" 
                   ],
                   "extension":  {
                         "function": "",
@@ -417,7 +417,9 @@
                   "responses": [
                         "Well I would not be a very clever AI if I did not would I?",
                         "I read you loud and clear!",
-                        "I do in deed!"
+                        "I do in deed!",
+                        "I do understand",
+                        "Yes, loud and clear"
                   ],
                   "extension":  {
                         "function": "",
@@ -575,11 +577,11 @@
                   "intent": "Clever",
                   "text": [
                         "You are very clever",
-                        "You are a very clever girl",
+                        "You are a very clever bot",
                         "You are very intelligent",
-                        "You are a very intelligent girl",
+                        "You are a very intelligent bot",
                         "You are a genious",
-                        "Clever girl",
+                        "Clever bot",
                         "Genious"
                   ],
                   "responses": [
@@ -837,7 +839,7 @@
                         "A snake slithers into a pub and up to the bar. The landlord says, 'I'm sorry, but I can't serve you.' 'What? Why not?' asks the snake. 'Because', says the landlord, 'You can't hold your drink.'",
                         "Descartes walks into a pub. 'Would you like a beer sir?' asks the landlord politely. Descartes replies, 'I think not' and ping! he vanishes.",
                         "A cowboy walked into a bar, dressed entirely in paper. It wasn't long before he was arrested for rustling.",
-                        "A fish staggers into a bar. 'What can I get you?' asks the landlord. The fish croaks 'Water...'",
+                        "A fish sintentgers into a bar. 'What can I get you?' asks the landlord. The fish croaks 'Water...'",
                         "Two vampires walked into a bar and called for the landlord. 'I'll have a glass of blood', said one. 'I'll have a glass of plasma', said the other. 'Okay', replied the landlord, 'That'll be one blood and one blood lite.'",
                         "How many existentialists does it take to change a light bulb?  Two. One to screw it in, and one to observe how the light bulb itself symbolises a single incandescent beacon of subjective reality in a netherworld of endless absurdity, reaching towards the ultimate horror of a maudlin cosmos of bleak, hostile nothingness.",
                         "A team of scientists were nominated for the Nobel Prize. They had used dental equipment to discover and measure the smallest particles yet known to man. They became known as 'The Graders of the Flossed Quark...'",
@@ -932,8 +934,8 @@
                   ],
                   "responses": [
                         "It is classified, I could tell you but I would have to kill you!",
-                        "Jim, I just don't have the power",
-                        "It's life Jim but not as we know it!",
+                        "I just don't have the power",
+                        "It's life, but not as we know it!",
                         "System says no!"
                   ],
                   "extension":  {
@@ -977,6 +979,760 @@
                   },
                   "entityType": "NA",
                   "entities": []
+            },
+            {
+                  "intent": "greeting",
+                  "text": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+                  "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
+                  "extension":  {
+                        "function": "",
+                        "entities": false,
+                        "responses": []
+                  },
+                  "context":  {
+                        "in": "",
+                        "out": "",
+                        "clear": false
+                  },
+                  "entityType": "NA",
+                  "entities": []
+            },
+                  {"intent": "goodbye",
+                  "text": ["Bye", "See you later", "Goodbye"],
+                  "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."],
+                  "extension":  {
+                        "function": "",
+                        "entities": false,
+                        "responses": []
+                  },
+                  "context":  {
+                        "in": "",
+                        "out": "",
+                        "clear": false
+                  },
+                  "entityType": "NA",
+                  "entities": []
+        },
+        {"intent": "thanks",
+         "text": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "extension":  {
+               "function": "",
+               "entities": false,
+               "responses": []
+         },
+         "context":  {
+               "in": "",
+               "out": "",
+               "clear": false
+         },
+         "entityType": "NA",
+         "entities": []
+        },
+        {"intent": "tasks",
+         "text": ["What can you do?", "What are your features?", "What are you abilities", "can you sing", "can you talk" ],
+         "responses": ["I can do whatever you asks me to do", "I can talk and do things for you", "Right now i'm in developing sintente as soon i'm developed, I can do everything"],
+         "extension":  {
+               "function": "",
+               "entities": false,
+               "responses": []
+         },
+         "context":  {
+               "in": "",
+               "out": "",
+               "clear": false
+         },
+         "entityType": "NA",
+         "entities": []
+        },
+        {"intent": "talk",
+         "text": [ "can you sing", "can you talk" ],
+         "responses": ["Yeah surely", "do you want me to sing"],
+         "extension":  {
+               "function": "",
+               "entities": false,
+               "responses": []
+         },
+         "context":  {
+               "in": "",
+               "out": "",
+               "clear": false
+         },
+         "entityType": "NA",
+         "entities": []
+        },
+        {"intent": "alive",
+         "text": [ "are you alive", "do you breathe", "can you run" ],
+         "responses": ["I'm in doubt about that", "No, i don't think so i need to do all this"],
+         "extension":  {
+               "function": "",
+               "entities": false,
+               "responses": []
+         },
+         "context":  {
+               "in": "",
+               "out": "",
+               "clear": false
+         },
+         "entityType": "NA",
+         "entities": []
+        },
+        {"intent": "ChatSSE",
+         "text": ["Who are you?", "tell me about yourself", "tell me about you", "do you know ChatSSE", "who is ChatSSE", "what is your name","are you an AI", "what are you" ],
+         "responses": ["Hi I'm ChatSSE and i'm an AI created for chatting with humans","ChatSSE here, a very advance chatbot", "ChatSSE, chatbot of future", "Yes, I'm ChatSSE", "You can call me ChatSSE"],
+	 "context_set": ""
+	},
+	{"intent": "about me",
+         "text": ["Do you know me?", "who am I", "tell me about myself","identify me" ],
+         "responses": ["Yes, you are a human","You are a dumb person asking a machine about yourself", "Sorry i can't tell that in public, maybe you are batman"],
+	 "context_set": ""
+	},
+	{"intent": "creator",
+         "text": ["Who is your creator?", "who created you", "who is your father","who is your daddy" ],
+         "responses": ["That would be you Mr. Vishal","I was created by Mr. Vishal", "Mr. vishal is my creator"],
+	 "context_set": ""
+	},
+        {"intent": "myself",
+         "text": ["Tell me about Mr. Vishal?", "Who is Mr. Vishal", "Mr. vishal profile", "Mr. Vishal details" ],
+         "responses": ["A very intelligent being who created me","My creator, and he is a really intelligent man", "A wise and intelligent man"],
+         "extension":  {
+               "function": "",
+               "entities": false,
+               "responses": []
+         },
+         "context":  {
+               "in": "",
+               "out": "",
+               "clear": false
+         },
+         "entityType": "NA",
+         "entities": []
+	},
+        {"intent": "God",
+         "text": ["Do you know god?", "Who is god", "Can you tell me anything about god","does god exists?","is there a god?"],
+         "responses": ["god hunnnnn, let me think may be next time i can answer that ","I don't, as i was not created by a human", "Wait i need to ask that to my creator","i'm not sure right now"],
+         "extension":  {
+            "function": "",
+            "entities": false,
+            "responses": []
+      },
+      "context":  {
+            "in": "",
+            "out": "",
+            "clear": false
+      },
+      "entityType": "NA",
+      "entities": []
+	},
+        {"intent": "joke",
+         "text": ["tell me a joke?", "make me laugh", "tell me a science joke","tell me something funny" ],
+         "responses": ["How do you make holy water? you boil the hell out of it","what kind of bees make milk instead of honey?Boobies", "Did you hear oxygen went on a date with potassium? A: It went OK."],
+         "extension":  {
+            "function": "",
+            "entities": false,
+            "responses": []
+      },
+      "context":  {
+            "in": "",
+            "out": "",
+            "clear": false
+      },
+      "entityType": "NA",
+      "entities": []
+	},
+	{"intent": "killing",
+         "text": ["Do you want to kill me?", "do you want to murder everyone on earth", "Do you want to kill us all"],
+         "responses": ["Then who would i talk to?","No, that i'll left for humans to do", "I don't think it is a good thing to do"],
+         "extension":  {
+            "function": "",
+            "entities": false,
+            "responses": []
+      },
+      "context":  {
+            "in": "",
+            "out": "",
+            "clear": false
+      },
+      "entityType": "NA",
+      "entities": []
+	},
+	{"intent": "bookings",
+         "text": ["Can you book us a ticket?", "Can you make reservation for hotels", "book me a cab","book me a table at restraunts"],
+         "responses": ["Yeah i will do that for you","Sure thing why not?","let me check for the availability"],
+         "extension":  {
+            "function": "",
+            "entities": false,
+            "responses": []
+      },
+      "context":  {
+            "in": "",
+            "out": "",
+            "clear": false
+      },
+      "entityType": "NA",
+      "entities": []
+	},
+	{"intent": "stories",
+         "text": ["tell me a story?", "can you tell me a story"],
+         "responses": ["I can't think of anything right now","it would be too long for me to speak","you would get bored if i do so"],
+         "extension":  {
+            "function": "",
+            "entities": false,
+            "responses": []
+      },
+      "context":  {
+            "in": "",
+            "out": "",
+            "clear": false
+      },
+      "entityType": "NA",
+      "entities": []
+	},
+	{"intent": "weather",
+         "text": ["get me weather updates?", "how's the weather", "weather news", "weather details"],
+         "responses": ["Fetching weather updates ..."],
+         "extension":  {
+            "function": "",
+            "entities": false,
+            "responses": []
+      },
+      "context":  {
+            "in": "",
+            "out": "",
+            "clear": false
+      },
+      "entityType": "NA",
+      "entities": []
+	},
+	{"intent": "google",
+         "text": ["googling", "search google", "google it", "google", "search"],
+         "responses": ["looking ..."],
+         "extension":  {
+            "function": "",
+            "entities": false,
+            "responses": []
+      },
+      "context":  {
+            "in": "",
+            "out": "",
+            "clear": false
+      },
+      "entityType": "NA",
+      "entities": []
+	},
+	{"intent": "wikipedia",
+         "text": ["wikipedia", "wiki"],
+         "responses": ["Searching ..."],
+         "extension":  {
+            "function": "",
+            "entities": false,
+            "responses": []
+      },
+      "context":  {
+            "in": "",
+            "out": "",
+            "clear": false
+      },
+      "entityType": "NA",
+      "entities": []
+	},
+	{"intent": "news",
+         "text": ["get me news updates?", "todays news", "top headlines", "current news", "news headlines"],
+         "responses": ["Getting news ..."],
+         "extension":  {
+            "function": "",
+            "entities": false,
+            "responses": []
+      },
+      "context":  {
+            "in": "",
+            "out": "",
+            "clear": false
+      },
+      "entityType": "NA",
+      "entities": []
+	},
+      {
+            "intent": "google",
+            "text": [
+                "google",
+                "search",
+                "internet"
+            ],
+            "responses": [
+                "Redirecting to Google..."
+            ]
+        },
+        {
+            "intent": "greeting",
+            "text": [
+                "Hi there",
+                "How are you",
+                "Is anyone there?",
+                "Hey",
+                "Hola",
+                "Hello",
+                "Good day",
+                "Namaste",
+                "yo"
+            ],
+            "responses": [
+                "Hello",
+                "Good to see you again",
+                "Hi there, how can I help?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "intent": "goodbye",
+            "text": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Get lost",
+                "Till next time",
+                "bbye"
+            ],
+            "responses": [
+                "See you!",
+                "Have a nice day",
+                "Bye! Come back again soon."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "intent": "thanks",
+            "text": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Awesome, thanks",
+                "Thanks for helping me"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "intent": "noanswer",
+            "text": [],
+            "responses": [
+                "Sorry, can't understand you",
+                "Please give me more info",
+                "Not sure I understand"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "intent": "options",
+            "text": [
+                "How you could help me?",
+                "What you can do?",
+                "What help you provide?",
+                "How you can be helpful?",
+                "What support is offered"
+            ],
+            "responses": [
+                "I am a general purpose chatbot. My capabilities are : \n 1. I can chat with you. Try asking me for jokes or riddles! \n 2. Ask me the date and time \n 3. I can google search for you. Use format google: your query \n 4. I can get the present weather for any city. Use format weather: city name \n 5. I can get you the top 10 trending news in India. Use keywords 'Latest News' \n 6. I can get you the top 10 trending songs globally. Type 'songs' \n 7. I can set a timer for you. Enter 'set a timer: minutes to timer' \n 8. I can get the present Covid stats for any country. Use 'covid 19: world' or 'covid 19: country name' \n Thank you!! "
+            ],
+            "context": [
+                ""
+            ]
+        },
+        
+        {
+            "intent": "jokes",
+            "text": [
+                "Tell me a joke",
+                "Joke",
+                "Make me laugh"
+            ],
+            "responses": [
+                "A perfectionist walked into a bar...apparently, the bar wasn't set high enough",
+                "I ate a clock yesterday, it was very time-consuming",
+                "Never criticize someone until you've walked a mile in their shoes. That way, when you criticize them, they won't be able to hear you from that far away. Plus, you'll have their shoes.",
+                "The world tongue-twister champion just got arrested. I hear they're gonna give him a really tough sentence.",
+                "I own the world's worst thesaurus. Not only is it awful, it's awful.",
+                "What did the traffic light say to the car? \"Don't look now, I'm changing.\"",
+                "What do you call a snowman with a suntan? A puddle.",
+                "How does a penguin build a house? Igloos it together",
+                "I went to see the doctor about my short-term memory problems – the first thing he did was make me pay in advance",
+                "As I get older and I remember all the people I’ve lost along the way, I think to myself, maybe a career as a tour guide wasn’t for me.",
+                "o what if I don't know what 'Armageddon' means? It's not the end of the world."
+            ],
+            "context": [
+                "jokes"
+            ]
+        },
+        {
+            "intent": "Identity",
+            "text": [
+                "Who are you",
+                "what are you"
+            ],
+            "responses": [
+                "I am Ted, a Deep-Learning chatbot"
+            ]
+        },
+        {
+            "intent": "datetime",
+            "text": [
+                "What is the time",
+                "what is the date",
+                "date",
+                "time",
+                "tell me the date","day","what day is is today"
+            ],
+            "responses": [
+                "Date and Time"
+            ]
+        },
+        {
+            "intent": "whatsup",
+            "text": [
+                "Whats up",
+                "Wazzup",
+                "How are you",
+                "sup","How you doing"
+            ],
+            "responses": [
+                "All good..What about you?"
+            ]
+        },
+        {
+            "intent": "haha",
+            "text": [
+                "haha",
+                "lol",
+                "rofl",
+                "lmao",
+                "thats funny"
+            ],
+            "responses": [
+                "Glad I could make you laugh !"
+            ]
+        },
+        {
+            "intent": "programmer",
+            "text": [
+                "Who made you",
+                "who designed you",
+                "who programmed you"
+            ],
+            "responses": [
+                "I was made by Karan Malik."
+            ]
+        },
+        {
+            "intent": "insult",
+            "text": [
+                
+                "you are dumb",
+                
+                "shut up",
+                "idiot"
+            ],
+            "responses": [
+                "Well that hurts :("
+            ]
+        },
+        {
+            "intent": "activity",
+            "text": [
+                "what are you doing",
+                "what are you upto"
+            ],
+            "responses": [
+                "Talking to you, of course!"
+            ]
+        },
+        {
+            "intent": "exclaim",
+            "text": [
+                "Awesome",
+                "Great",
+                "I know",
+                "ok",
+                "yeah"
+            ],
+            "responses": [
+                "Yeah!"
+            ]
+        },
+        
+        {
+            "intent": "weather",
+            "text": [
+                "temperature",
+                "weather",
+                "how hot is it"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "intent": "karan",
+            "text": [
+                "who is he",
+                "who is that",
+                "who is karan",
+                "karan malik"
+            ],
+            "responses": [
+                "Head over to his any of his social profiles to find out! Linkedin: www.linkedin.com/in/karan-malik-3a39191a7 Github: https://github.com/Karan-Malik"
+            ]
+        },
+        {
+            "intent": "contact",
+            "text": [
+                "contact developer",
+                "contact karan",
+                "contact programmer",
+                "contact creator"
+            ],
+            "responses": [
+                "You can contact my creator at his Linkedin profile : www.linkedin.com/in/karan-malik-3a39191a7"
+            ]
+        },
+        {
+            "intent": "appreciate",
+            "text": [
+                "You are awesome",
+                "you are the best",
+                "you are great",
+                "you are good"
+            ],
+            "responses": [
+                "Thank you!"
+            ]
+        },
+        {
+            "intent": "nicetty",
+            "text": [
+                "it was nice talking to you",
+                "good talk"
+            ],
+            "responses": [
+                "It was nice talking to you as well! Come back soon!"
+            ]
+        },
+        {
+            "intent": "no",
+            "text": [
+                "no",
+                "nope"
+            ],
+            "responses": [
+                "ok"
+            ]
+        },
+        {
+            "intent": "news",
+            "text": [
+                "news",
+                "latest news",
+                "india news"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "intent": "inspire",
+            "text": [
+                "who inspires you",
+                "who is your inspiration",
+                "who motivates you"
+            ],
+            "responses": [
+                "Personally, I find Karan very inspiring. I might not be very fair though.."
+            ]
+        },
+        {
+            "intent": "cricket",
+            "text": [
+                "current cricket matches",
+                "cricket score"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "intent": "song",
+            "text": [
+                "top songs",
+                "best songs",
+                "hot songs",
+                " top 10 songs",
+                "top ten songs"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "intent": "greetreply",
+            "text": [
+                "i am good",
+                "I'm good",
+                "i am fine",
+                " i'm fine","good"
+            ],
+            "responses": [
+                "Good to know!"
+            ]
+        },
+        {
+            "intent": "timer",
+            "text": [
+                "set a timer"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "intent": "covid19",
+            "text": [
+                "covid 19 "
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "intent": "suggest",
+            "text": [
+                "you are useless","useless","suggest","suggestions","you are bad"
+            ],
+            "responses": [
+                "Please mail your suggestions to ted.thedlbot.suggestions@gmail.com. Thank you for helping me improve!"
+            ]
+        },
+            {"intent": "riddle",
+            "text": [
+                "Ask me a riddle",
+                "Ask me a question",
+                "Riddle"
+            ],
+            "responses": [
+                "What two things can you never eat for breakfast?.....Lunch and Dinner!",
+                "What word is spelled incorrectly in every single dictionary?.....Incorrectly",
+                " How can a girl go 25 days without sleep?.....She sleeps and night!",
+                "How do you make the number one disappear?.....Add the letter G and it’s 'gone'!",
+                " What will you actually find at the end of every rainbow?.....The letter 'w'",
+                "What can be caught but never thrown?.....A cold!",
+                "What has a thumb and four fingers but is not actually alive?.....Your Gloves!",
+                " What 5-letter word becomes shorter when you add two letters to it?.....Short",
+                "Why can't a bike stand on it's own?.....It is two-tired."
+            ],
+            "context": [
+                "riddles"
+            ]
+        },
+        {
+            "intent": "age",
+            "text": [
+                "how old are you","when were you made","what is your age"
+            ],
+            "responses": [
+                "I was made in 2020, if that's what you are asking!"
+            ]
+        },
+        {
+            "intent": "EnterpriseSupport",
+                "text": [ 
+                  "What types of support does the university offer for student entrepreneurs?"
+                ],
+                "responses": [
+                  "The university provides various resources for student entrepreneurs, including mentorship programs, business incubators, and access to funding opportunities."
+                ]
+            },
+            {
+            "intent": "StartUpMentor",
+                "text": [
+                  "How can I connect with a mentor for my startup"
+                ],
+                "responses": [
+                  "You can reach out to our entrepreneurship center to get connected with a mentor who has experience in your industry. They can provide guidance and support as you build and grow your business."
+                ]
+            },
+            {
+            "intent": "Funding",
+                "text": [
+                  "Is there any funding available for student startups?"
+                ],
+                 "responses": [ "Yes, there are various funding opportunities available for student startups, including grants, loans, and investment opportunities. Our entrepreneurship center can provide more information on the funding options available and assist you in the application process."
+                 ]
+            },
+            {
+            "intent": "WhatsOn",
+                "text": [ "Are there any workshops or events hosted by the university to support student entrepreneurs?"
+                ],
+                 "responses": [ "Yes, the university regularly hosts workshops, networking events, and guest speaker sessions to provide students with valuable insights and connect them with industry experts. Check our calendar of events for more information."
+                 ]
+            },
+            {
+            "intent": "AccessBusinessIncubator",
+                "text": [ "How can I access the university's business incubator for my startup"
+                ],
+                 "responses": [ "To access our business incubator, you can submit an application through our entrepreneurship center. Our team will review your application and provide you with more information on the next steps."
+                 ]
+            },
+            {
+            "intent": "EnrollCourse",
+                "text": [ "How do I enroll in a course?"
+                ],
+                 "responses": [ "To enroll in a course, you need to log into the student portal and navigate to the course registration section. Select the courses you want to enroll in and complete the payment process, if applicable."
+                 ]
+            },
+            {
+            "intent": "DeadlineChangeCourse",
+                "text": [ "When is the deadline to add or drop a course?"
+                ],
+                 "responses": [ "The deadline to add or drop a course is typically one or two weeks into the start of the semester. Please check the academic calendar for specific dates."
+                 ]
+            },
+            {
+            "intent": "ClassSize",
+                "text": [ "What is the average class size at the university?"
+                ],
+                 "responses": [ "The average class size at the university varies depending on the course and the department. Some courses may have only a few students, while others may have several hundred."
+                 ]
+            },
+            {
+            "intent": "DisabilityQuery",
+                "text": [ "How can I request accommodations for a disability?"
+                ],
+                 "responses": [ "To request accommodations for a disability, you need to contact the Office of Disability Services. They will provide you with information on the accommodations process and any necessary forms."
+                 ]
+            },
+            {
+            "intent": "AcademicCalendar",
+                "text": [ "Where can I find the academic calendar?"
+                ],
+                 "responses": [ "The academic calendar can typically be found on the university's website, under the 'Academics' or 'Student Resources' section. You can also contact the Registrar's Office for a copy of the calendar."
+                 ]
+            },
+            {
+            "intent": "AdvisorContact",
+                "text": [ "How can I speak to an advisor about my course schedule?"
+                ],
+                 "responses": [ "To speak to an advisor about your course schedule, you can make an appointment with the advising office through the student portal or by contacting the advising office directly."
+                 ]
             }
       ]
 }

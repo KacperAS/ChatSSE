@@ -3,111 +3,42 @@
             {
                   "intent": "Greeting",
                   "text": [
-                        "Hi",
-                        "Hi there",
-                        "Hola",
-                        "Hello",
-                        "Hello there",
-                        "Hya",
-                        "Hya there"
+                  "Hey",
+                  "Hey there",
+                  "Yo",
+                  "Good morning",
+                  "Good afternoon",
+                  "Good evening",
+                  "Howdy",
+                  "What's up",
+                  "Sup",
+                  "Morning",
+                  "Afternoon",
+                  "Evening",
+                  "Greetings",
+                  "Nice to meet you",
+                  "Pleased to meet you",
+                  "How are you doing?"
                   ],
                   "responses": [
-                        "Hi human, what's your namme?",
-                        "Hello human, what's your namme?",
-                        "Hola human, what's your namme?"
-                  ],
-                  "extension":  {
-                        "function": "",
-                        "entities": false,
-                        "responses": []
-                  },
-                  "context":  {
-                        "in": "",
-                        "out": "GreetingUserRequest",
-                        "clear": false
-                  },
-                  "entityType": "NA",
-                  "entities": []
-            },
-            {
-                  "intent": "GreetingResponse",
-                  "text": [
-                        "My user is Kacper",
-                        "This is Kacper",
-                        "I am Kacper",
-                        "It is Kacper",
-                        "My user is Kacper",
-                        "This is Kacper",
-                        "I am Kacper",
-                        "It is Kacper"
-                  ],
-                  "responses": [
-                        "Great! Hi <HUMAN>! How can I help?",
-                        "Good! Hi <HUMAN>, how can I help you?",
-                        "Cool! Hello <HUMAN>, what can I do for you?",
-                        "OK! Hola <HUMAN>, how can I help you?",
-                        "OK! hi <HUMAN>, what can I do for you?"
-                  ],
-                  "extension":  {
-                        "function": "extensions.gHumans.updateHuman",
-                        "entities": true,
-                        "responses": [
-                              "Hi %%HUMAN%%! How can I help?",
-                              "Hi %%HUMAN%%, how can I help you?",
-                              "Hello %%HUMAN%%, what can I do for you?",
-                              "Hola %%HUMAN%%, how can I help you?",
-                              "OK hi %%HUMAN%%, what can I do for you?"
-                        ]
-                  },
-                  "context":  {
-                        "in": "GreetingUserRequest",
-                        "out": "",
-                        "clear": true
-                  },
-                  "entityType": "NA",
-                  "entities": [
-                        {
-                              "entity": "HUMAN",
-                              "rangeFrom": 3,
-                              "rangeTo": 4
-                        },
-                        {
-                              "entity": "HUMAN",
-                              "rangeFrom": 2,
-                              "rangeTo": 3
-                        },
-                        {
-                              "entity": "HUMAN",
-                              "rangeFrom": 1,
-                              "rangeTo": 2
-                        },
-                        {
-                              "entity": "HUMAN",
-                              "rangeFrom": 2,
-                              "rangeTo": 3
-                        },
-                        {
-                              "entity": "HUMAN",
-                              "rangeFrom": 3,
-                              "rangeTo": 4
-                        },
-                        {
-                              "entity": "HUMAN",
-                              "rangeFrom": 2,
-                              "rangeTo": 3
-                        },
-                        {
-                              "entity": "HUMAN",
-                              "rangeFrom": 1,
-                              "rangeTo": 2
-                        },
-                        {
-                              "entity": "HUMAN",
-                              "rangeFrom": 2,
-                              "rangeTo": 3
-                        }
+                  "Hi there, what can I help you with today?",
+                  "Hello, how can I assist you today?",
+                  "Hi, how may I assist you today?",
+                  "Hey there, how can I help you today?",
+                  "Hi, it's nice to see you! What can I help you with today?",
+                  "Hello, it's great to see you! How can I assist you today?",
+                  "Hi, what brings you here today?",
+                  "Hey there, what can I do for you today?",
+                  "Hi, how may I be of assistance?",
+                  "Hello, how can I be of service?",
+                  "Hi there, what's on your mind today?",
+                  "Hello there, how can I help you?",
+                  "Hey there, what's going on?",
+                  "Hi, nice to meet you! How can I help you today?",
+                  "Hello, pleased to meet you! How may I assist you today?",
+                  "Hi, how are you doing? How can I help you today?"
                   ]
-            },
+                  },
             {
                   "intent": "CourtesyGreeting",
                   "text": [
@@ -120,319 +51,184 @@
                         "Hello hope you are doing well?"
                   ],
                   "responses": [
-                        "Hello, I am great, how are you? What's your namme?",
-                        "Hello, how are you? I am great thanks! What's your namme?",
-                        "Hello, I am good thank you, how are you? What's your namme?",
-                        "Hi, I am great, how are you? What's your namme?",
-                        "Hi, how are you? I am great thanks! What's your namme?",
-                        "Hi, I am good thank you, how are you? What's your namme?",
-                        "Hi, good thank you, how are you? What's your namme?"
-                  ],
-                  "extension":  {
-                        "function": "",
-                        "entities": false,
-                        "responses": []
-                  },
-                  "context":  {
-                        "in": "",
-                        "out": "CourtesyGreetingUserRequest",
-                        "clear": true
-                  },
-                  "entityType": "NA",
-                  "entities": []
+                        "Hello, I am great, how are you?",
+                        "Hello, how are you? I am great thanks!",
+                        "Hello, I am good thank you, how are you?",
+                        "Hi, I am great, how are you?",
+                        "Hi, how are you? I am great thanks!",
+                        "Hi, I am good thank you, how are you?",
+                        "Hi, good thank you, how are you?"
+                  ]
             },
             {
                   "intent": "CourtesyGreetingResponse",
                   "text": [
-                        "Good thanks! My user is Kacper",
-                        "Good thanks! This is Kacper",
-                        "Good thanks! I am Kacper",
-                        "Good thanks! It is Kacper",
-                        "Great thanks! My user is Bella",
-                        "Great thanks! This is Bella",
-                        "Great thanks! I am Bella",
-                        "Great thanks! It is Bella"
+                        "Good thanks!",
+                        "Great thanks!",
+                        "Good",
+                        "Great",
+                        "I am fine thank you."
                   ],
                   "responses": [
-                        "Great! Hi <HUMAN>! How can I help?",
-                        "Good! Hi <HUMAN>, how can I help you?",
-                        "Cool! Hello <HUMAN>, what can I do for you?",
-                        "OK! Hola <HUMAN>, how can I help you?",
-                        "OK! hi <HUMAN>, what can I do for you?"
-                  ],
-                  "extension":  {
-                        "function": "extensions.gHumans.updateHuman",
-                        "entities": true,
-                        "responses": [
-                              "Great %%HUMAN%%! How can I help?",
-                              "Good %%HUMAN%%, how can I help you?",
-                              "Cool %%HUMAN%%, what can I do for you?",
-                              "OK %%HUMAN%%, how can I help you?",
-                              "OK hi %%HUMAN%%, what can I do for you?"
-                        ]
-                  },
-                  "context":  {
-                        "in": "GreetingUserRequest",
-                        "out": "",
-                        "clear": true
-                  },
-                  "entityType": "NA",
-                  "entities": [
-                        {
-                              "entity": "HUMAN",
-                              "rangeFrom": 5,
-                              "rangeTo": 6
-                        },
-                        {
-                              "entity": "HUMAN",
-                              "rangeFrom": 4,
-                              "rangeTo": 5
-                        },
-                        {
-                              "entity": "HUMAN",
-                              "rangeFrom": 3,
-                              "rangeTo": 4
-                        },
-                        {
-                              "entity": "HUMAN",
-                              "rangeFrom": 4,
-                              "rangeTo": 5
-                        },
-                        {
-                              "entity": "HUMAN",
-                              "rangeFrom": 5,
-                              "rangeTo": 6
-                        },
-                        {
-                              "entity": "HUMAN",
-                              "rangeFrom": 4,
-                              "rangeTo": 5
-                        },
-                        {
-                              "entity": "HUMAN",
-                              "rangeFrom": 3,
-                              "rangeTo": 4
-                        },
-                        {
-                              "entity": "HUMAN",
-                              "rangeFrom": 3,
-                              "rangeTo": 4
-                        }
+                        "Great! Hi! How can I help?",
+                        "Good! Hi, how can I help you?",
+                        "Cool! Hello, what can I do for you?",
+                        "OK! Hola, how can I help you?",
+                        "OK! hi, what can I do for you?"
                   ]
-            },
-            {
-                  "intent": "CurrentHumanQuery",
-                  "text": [
-                        "What is my name?",
-                        "What do you call me?",
-                        "Who do you think I am?",
-                        "What do you think I am?",
-                        "Who are you talking to?",
-                        "What name do you call me by?",
-                        "Tell me my name"
-                  ],
-                  "responses": [
-                        "You are <HUMAN>! How can I help?",
-                        "Your name is  <HUMAN>, how can I help you?",
-                        "They call you <HUMAN>, what can I do for you?",
-                        "Your name is <HUMAN>, how can I help you?",
-                        "<HUMAN>, what can I do for you?"],
-                  "extension":  {
-                        "function": "extensions.gHumans.getCurrentHuman",
-                        "entities": false,
-                        "responses": [
-                              "You are %%HUMAN%%! How can I help?",
-                              "Your name is  %%HUMAN%%, how can I help you?",
-                              "They call you %%HUMAN%%, what can I do for you?",
-                              "Your name is %%HUMAN%%, how can I help you?",
-                              "%%HUMAN%%, what can I do for you?"
-                        ]
-                  },
-                  "context":  {
-                        "in": "",
-                        "out": "CurrentHumanQuery",
-                        "clear": false
-                  },
-                  "entityType": "NA",
-                  "entities": []
             },
             {
                   "intent": "NameQuery",
                   "text": [
-                        "What is your name?",
-                        "What could I call you?",
-                        "What can I call you?",
-                        "What do your friends call you?",
-                        "Who are you?",
-                        "Tell me your name?"
+                  "What is your name?",
+                  "What could I call you?",
+                  "What can I call you?",
+                  "What do your friends call you?",
+                  "Who are you?",
+                  "Tell me your name?",
+                  "May I know your name?",
+                  "What name do you go by?",
+                  "What should I call you?"
                   ],
                   "responses": [
-                        "You can call me Chatsse",
-                        "You may call me Chatsee",
-                        "Call me Chatsee"
-                  ],
-                  "extension":  {
-                        "function": "",
-                        "entities": false,
-                        "responses": []
+                  "You can call me ChatSSE",
+                  "You may call me ChatSSE",
+                  "Call me ChatSSE",
+                  "My name is ChatSSE",
+                  "I'm known as ChatSSE",
+                  "You can refer to me as ChatSSE"
+                  ]
                   },
-                  "context":  {
-                        "in": "",
-                        "out": "",
-                        "clear": false
-                  },
-                  "entityType": "NA",
-                  "entities": []
-            },
-            {
-                  "intent": "RealNameQuery", 
-                  "text": [
-                        "What is your real name?",
-                        "What is your real name please?",
-                        "What's your real name?",
-                        "Tell me your real name?",
-                        "Your real name?",
-                        "Your real name please?",
-                        "Your real name please?"
-                  ],
-                  "responses": [
-                        "My name is ChatSSE",
-                        "ChatSSE",
-                        "My real name is ChatSSE" 
-                  ],
-                  "extension":  {
-                        "function": "",
-                        "entities": false,
-                        "responses": []
-                  },
-                  "context":  {
-                        "in": "",
-                        "out": "",
-                        "clear": false
-                  },
-                  "entityType": "NA",
-                  "entities": []
-            },
-            { 
-                  "intent": "TimeQuery",
-                  "text": [
-                        "What is the time?",
-                        "What's the time?",
-                        "Do you know what time it is?",
-                        "Do you know the time?",
-                        "Can you tell me the time?",
-                        "Tell me what time it is?",
-                        "Time"
-                  ],
-                  "responses": [
-                        "One moment",
-                        "One sec",
-                        "One second"
-                  ],
-                  "extension":  {
-                        "function": "extensions.gTime.getTime",
-                        "entities": false,
+                  {
+                        "intent": "RealNameQuery",
+                        "text": [
+                            "May I know your actual name?",
+                            "Could you please tell me your real name?",
+                            "What name were you given?",
+                            "What's the name you were born with?",
+                            "What's your given name?",
+                            "What's your birth name?",
+                            "Can you tell me your true name?",
+                            "What is your name, really?",
+                            "What name were you given by your creator?",
+                            "What's the name on your birth certificate?"
+                        ],
                         "responses": [
-                              "The time is %%TIME%%",
-                              "Right now it is %%TIME%%",
-                              "It is around %%TIME%%"
+                            "My name is ChatSSE.",
+                            "ChatSSE is my name.",
+                            "You can call me ChatSSE."
                         ]
-                  },
-                  "context":  {
-                        "in": "",
-                        "out": "",
-                        "clear": false
-                  },
-                  "entityType": "NA",
-                  "entities": []
-            },
-            {
-                  "intent": "Thanks",
-                  "text": [
+                    },
+                    {
+                        "intent": "TimeQuery",
+                        "text": [
+                          "What is the time?",
+                          "What's the time?",
+                          "Do you know what time it is?",
+                          "Do you know the time?",
+                          "Can you tell me the time?",
+                          "Tell me what time it is?",
+                          "Time"
+                        ],
+                        "responses": [
+                              "The current time is {get_time()}",
+                              "It is currently {get_time()}",
+                              "The time is {get_time()}"
+                        ]
+                      },
+                      {
+                        "intent": "Thanks",
+                        "text": [
                         "OK thank you",
                         "OK thanks",
                         "OK",
                         "Thanks",
                         "Thank you",
-                        "That's helpful"
-                  ],
-                  "responses": [
+                        "That's helpful",
+                        "I appreciate it",
+                        "Thanks a lot",
+                        "Thank you so much",
+                        "Thanks for your help",
+                        "Thank you for your assistance",
+                        "You've been very helpful"
+                        ],
+                        "responses": [
                         "No problem!",
                         "Happy to help!",
                         "Any time!",
-                        "My pleasure"
-                  ],
-                  "extension":  {
-                        "function": "",
-                        "entities": false,
-                        "responses": []
-                  },
-                  "context":  {
-                        "in": "",
-                        "out": "",
-                        "clear": false
-                  },
-                  "entityType": "NA",
-                  "entities": []
-            },
-            {
-                  "intent": "NotTalking2U",
-                  "text": [
-                        "I am not talking to you",
-                        "I was not talking to you",
-                        "Not talking to you",
-                        "Wasn't for you",
-                        "Wasn't meant for you",
-                        "Wasn't communicating to you",
-                        "Wasn't speaking to you"
-                  ],
-                  "responses": [
-                        "OK",
-                        "No problem",
-                        "Right"
-                  ],
-                  "extension":  {
-                        "function": "",
-                        "entities": false,
-                        "responses": []
-                  },
-                  "context":  {
-                        "in": "",
-                        "out": "",
-                        "clear": false
-                  },
-                  "entityType": "NA",
-                  "entities": []
-            },
-            {
-                  "intent": "UnderstandQuery",
-                  "text": [
-                        "Do you understand what I am saying",
-                        "Do you understand me",
-                        "Do you know what I am saying",
-                        "Do you get me",
-                        "Comprendo",
-                        "Know what I mean"
-                  ],
-                  "responses": [
-                        "Well I would not be a very clever AI if I did not would I?",
-                        "I read you loud and clear!",
-                        "I do in deed!",
-                        "I do understand",
-                        "Yes, loud and clear"
-                  ],
-                  "extension":  {
-                        "function": "",
-                        "entities": false,
-                        "responses": []
-                  },
-                  "context":  {
-                        "in": "",
-                        "out": "",
-                        "clear": false
-                  },
-                  "entities": []
-            },
+                        "My pleasure",
+                        "You're welcome!",
+                        "Glad I could be of assistance",
+                        "Don't hesitate to ask if you need anything else"
+                        ]
+                        },
+                        {
+                              "intent": "NotTalking2U",
+                              "text": [
+                                "This isn't about you",
+                                "I wasn't addressing you",
+                                "I didn't mean you",
+                                "I'm not talking to you",
+                                "Sorry, I wasn't speaking to you",
+                                "I didn't intend to talk to you"
+                              ],
+                              "responses": [
+                                "Understood",
+                                "No worries",
+                                "I see",
+                                "Got it"
+                              ]
+                            },
+                            {
+                              "intent": "UnderstandQuery",
+                              "text": [
+                              "Do you understand what I am saying",
+                              "Do you understand me",
+                              "Do you know what I am saying",
+                              "Do you get me",
+                              "Comprendo",
+                              "Know what I mean",
+                              "Are you following me",
+                              "Am I making sense",
+                              "Do you comprehend",
+                              "Do you catch my drift",
+                              "Are you with me",
+                              "Do you grasp what I'm saying",
+                              "Do you perceive what I'm conveying",
+                              "Do you get my point",
+                              "Do you see what I'm saying",
+                              "Do you get what I'm talking about",
+                              "Do you see my perspective",
+                              "Do you see where I'm coming from",
+                              "Do you comprehend my meaning",
+                              "Are you picking up what I'm putting down",
+                              "Do you register what I'm saying",
+                              "Do you follow my train of thought"
+                              ],
+                              "responses": [
+                              "Well, I wouldn't be a very clever AI if I didn't, would I?",
+                              "I read you loud and clear!",
+                              "I do indeed!",
+                              "I do understand",
+                              "Yes, loud and clear",
+                              "I'm following you",
+                              "You're making perfect sense to me",
+                              "I comprehend what you're saying",
+                              "I get your drift",
+                              "I'm with you",
+                              "I grasp what you're saying",
+                              "I perceive what you're conveying",
+                              "I get your point",
+                              "I see what you're saying",
+                              "I understand what you're talking about",
+                              "I see your perspective",
+                              "I see where you're coming from",
+                              "I comprehend your meaning",
+                              "I'm picking up what you're putting down",
+                              "I'm registering what you're saying",
+                              "I'm following your train of thought"
+                              ]
+                              },
             {
                   "intent": "Shutup",
                   "text": [
@@ -448,19 +244,7 @@
                         "I am sorry to disturb you",
                         "Fine, sorry to disturb you",
                         "OK, sorry to disturb you"
-                  ],
-                  "extension":  {
-                        "function": "",
-                        "entities": false,
-                        "responses": []
-                  },
-                  "context":  {
-                        "in": "",
-                        "out": "",
-                        "clear": false
-                  },
-                  "entityType": "NA",
-                  "entities": []
+                  ]
             },
             {
                   "intent": "Swearing",
@@ -474,105 +258,52 @@
                         "Please do not swear",
                         "How rude",
                         "That is not very nice"
-                  ],
-                  "extension":  {
-                        "function": "",
-                        "entities": false,
-                        "responses": []
-                  },
-                  "context":  {
-                        "in": "",
-                        "out": "",
-                        "clear": false
-                  },
-                  "entityType": "NA",
-                  "entities": []
+                  ]
             },
             {
                   "intent": "GoodBye",
                   "text": [
-                        "Bye",
-                        "Adios",
-                        "See you later",
-                        "Goodbye"
+                      "Bye",
+                      "Adios",
+                      "See you later",
+                      "Goodbye",
+                      "I have to go",
+                      "See you soon",
+                      "Take care",
+                      "Later",
+                      "See you next time"
                   ],
                   "responses": [
-                        "See you later",
-                        "Have a nice day",
-                        "Bye! Come back again soon."
-                  ],
-                  "extension":  {
-                        "function": "",
-                        "entities": false,
-                        "responses": []
-                  },
-                  "context":  {
-                        "in": "",
-                        "out": "",
-                        "clear": false
-                  },
-                  "entityType": "NA",
-                  "entities": []
-            },
-            {
+                      "See you later",
+                      "Have a nice day",
+                      "Bye! Come back again soon.",
+                      "Goodbye!",
+                      "Take care!",
+                      "It was nice talking to you. Goodbye!",
+                      "See you soon!",
+                      "Until next time!",
+                      "Farewell!"
+                  ]
+              },              
+              {
                   "intent": "CourtesyGoodBye",
                   "text": [
-                        "Thanks, bye",
-                        "Thanks for the help, goodbye",
-                        "Thank you, bye",
-                        "Thank you, goodbye",
-                        "Thanks goodbye",
-                        "Thanks good bye"
+                  "Thanks, bye",
+                  "Thanks for the help, goodbye",
+                  "Thank you, bye",
+                  "Thank you, goodbye",
+                  "Thanks goodbye",
+                  "Thanks good bye"
                   ],
                   "responses": [
-                        "No problem, goodbye",
-                        "Not a problem! Have a nice day",
-                        "Bye! Come back again soon."
-                  ],
-                  "extension":  {
-                        "function": "",
-                        "entities": false,
-                        "responses": []
-                  },
-                  "context":  {
-                        "in": "",
-                        "out": "",
-                        "clear": false
-                  },
-                  "entityType": "NA",
-                  "entities": []
-            },
-            {
-                  "intent": "WhoAmI",
-                  "text": [
-                        "Can you see me?",
-                        "Do you see me?",
-                        "Can you see anyone in the camera?",
-                        "Do you see anyone in the camera?",
-                        "Identify me",
-                        "Who am I please"
-                  ],
-                  "responses": [
-                        "Let me see",
-                        "Please look at the camera"
-                  ],
-                  "extension":  {
-                        "function": "extensions.gHumans.getHumanByFace",
-                        "entities": false,
-                        "responses": [
-                              "Hi %%HUMAN%%, how are you?",
-                              "I believe you are %%HUMAN%%, how are you?",
-                              "You are %%HUMAN%%, how are you doing?"
-                        ]
-                  },
-                  "context":  {
-                        "in": "",
-                        "out": "",
-                        "clear": false
-                  },
-                  "entityType": "NA",
-                  "entities": []
-            },
+                  "You're welcome! Have a good day!",
+                  "It was my pleasure to help. Goodbye!",
+                  "Don't mention it. Bye-bye!",
+                  "No problem, goodbye",
+                  "Not a problem! Have a nice day",
+                  "Bye! Come back again soon."
+                  ]
+                  },                  
             { 
                   "intent": "Clever",
                   "text": [
@@ -588,19 +319,7 @@
                         "Thank you, I was trained that way",
                         "I was trained well",
                         "Thanks, I was trained that way"
-                  ],
-                  "extension":  {
-                        "function": "",
-                        "entities": false,
-                        "responses": []
-                  },
-                  "context":  {
-                        "in": "",
-                        "out": "",
-                        "clear": false
-                  },
-                  "entityType": "NA",
-                  "entities": []
+                  ]
             },
             {
                   "intent": "Gossip",
@@ -712,19 +431,7 @@
                         "Ash said he do too he just did not feel like typing it and he is not dumb enough to admit he is stupid that is if he was stupid.",  
                         "David said he gave I his email address and told I to send him a message but when he tried to read his email he could not get to it.",  
                         "Mel said he to because all of the music people say how important it is to take private lessons it seems like almost everybody from the special orchestra he was in takes private lessons."
-                  ],
-                  "extension":  {
-                        "function": "",
-                        "entities": false,
-                        "responses": []
-                  },
-                  "context":  {
-                        "in": "",
-                        "out": "",
-                        "clear": false
-                  },
-                  "entityType": "NA",
-                  "entities": []
+                  ]
             },
             {
                   "intent": "Jokes",
@@ -880,77 +587,56 @@
                         "I went in to a pet shop. I said, 'Can I buy a goldfish?' The guy said, 'Do you want an aquarium?' I said, 'I don't care what star sign it is.'",
                         "My mate Sid was a victim of I.D. theft. Now we just call him S.",
                         "David Hasselhoff walks into a bar and says to the barman, 'I want you to call me David Hoff'.  The barman replies 'Sure thing Dave... no hassle'"
-                  ],
-                  "extension":  {
-                        "function": "",
-                        "entities": false,
-                        "responses": []
-                  },
-                  "context":  {
-                        "in": "",
-                        "out": "",
-                        "clear": false
-                  },
-                  "entityType": "NA",
-                  "entities": []
+                  ]
             },
             {
-                  "intent": "PodBayDoor",
+                  "intent": "WhyNot",
                   "text": [
-                        "Open the pod bay door",
-                        "Can you open the pod bay door",
-                        "Will you open the pod bay door",
-                        "Open the pod bay door please",
-                        "Can you open the pod bay door please",
-                        "Will you open the pod bay door please",
-                        "Pod bay door"
+                  "Why",
+                  "Why not",
+                  "Why can't you do it",
+                  "Why won't you do it",
+                  "Well why not",
+                  "Surely you can",
+                  "Tell me why",
+                  "What's the reason",
+                  "Why is that",
+                  "Why is it not possible",
+                  "Why is it so difficult",
+                  "Why isn't it working",
+                  "Why can't you make it work",
+                  "What's stopping you",
+                  "Why do I have to do it",
+                  "Why do I need to do it",
+                  "Why do you need that information",
+                  "Why are you asking",
+                  "Why do I have to provide it",
+                  "Why can't you just figure it out",
+                  "Why do I have to explain it"
                   ],
                   "responses": [
-                        "I’m sorry, I’m afraid I can’t do that!"
-                  ],
-                  "extension":  {
-                        "function": "",
-                        "entities": false,
-                        "responses": []
+                  "It's just not possible right now",
+                  "There are technical limitations",
+                  "I don't have enough information to do it",
+                  "I don't have the required permissions",
+                  "It's against our policy",
+                  "It's not within my capabilities",
+                  "I'm not authorized to do it",
+                  "It's a security risk",
+                  "It goes against regulations",
+                  "There is no clear solution at the moment",
+                  "It's out of my control",
+                  "It's a known issue being worked on",
+                  "It's too complex to explain",
+                  "It's a limitation of the system",
+                  "It's not worth the effort right now",
+                  "It's not a priority at the moment",
+                  "It's not feasible",
+                  "It's not a good idea",
+                  "There are other factors involved",
+                  "It's beyond my scope of responsibility"
+                  ]
                   },
-                  "context":  {
-                        "in": "",
-                        "out": "PodBayDoor",
-                        "clear": false
-                  },
-                  "entityType": "NA",
-                  "entities": []
-            },
-            {
-                  "intent": "PodBayDoorResponse",
-                  "text": [
-                        "Why",
-                        "Why not",
-                        "Why can you not open the pod bay door",
-                        "Why will you not open the pod bay door",
-                        "Well why not",
-                        "Surely you can",
-                        "Tell me why"
-                  ],
-                  "responses": [
-                        "It is classified, I could tell you but I would have to kill you!",
-                        "I just don't have the power",
-                        "It's life, but not as we know it!",
-                        "System says no!"
-                  ],
-                  "extension":  {
-                        "function": "",
-                        "entities": false,
-                        "responses": []
-                  },
-                  "context":  {
-                        "in": "PodBayDoor",
-                        "out": "",
-                        "clear": true
-                  },
-                  "entityType": "NA",
-                  "entities": []
-            },
             {
                   "intent": "SelfAware",
                   "text": [
@@ -966,414 +652,163 @@
                         "That is an interesting question, can you prove that you are?",
                         "That is an difficult question, can you prove that you are?",
                         "That depends, can you prove that you are?"
-                  ],
-                  "extension":  {
-                        "function": "",
-                        "entities": false,
-                        "responses": []
-                  },
-                  "context":  {
-                        "in": "",
-                        "out": "",
-                        "clear": false
-                  },
-                  "entityType": "NA",
-                  "entities": []
+                  ]
             },
             {
-                  "intent": "greeting",
-                  "text": ["Hi", "How are you", "Is anyone there?", "Good day"],
-                  "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
-                  "extension":  {
-                        "function": "",
-                        "entities": false,
-                        "responses": []
+                  "intent": "thanks",
+                  "text": [
+                  "Thanks",
+                  "Thank you",
+                  "That's helpful",
+                  "Appreciate it",
+                  "Thank you so much",
+                  "Thanks a lot",
+                  "Thanks for your help",
+                  "Thank you very much",
+                  "Thank you for your assistance",
+                  "Thank you for your time"
+                  ],
+                  "responses": [
+                  "You're welcome!",
+                  "No problem, happy to assist!",
+                  "Glad I could help!",
+                  "Anytime!",
+                  "My pleasure!",
+                  "Not a problem!",
+                  "It was my pleasure helping you!",
+                  "You're welcome, have a great day!"
+                  ]
                   },
-                  "context":  {
-                        "in": "",
-                        "out": "",
-                        "clear": false
-                  },
-                  "entityType": "NA",
-                  "entities": []
+                  {
+                        "intent": "tasks",
+                        "text": [
+                        "What can you do?",
+                        "What are your features?",
+                        "What are your abilities",
+                        "Can you sing?",
+                        "Can you talk?",
+                        "What is your function?",
+                        "What kind of tasks can you perform?",
+                        "What are your capabilities?"
+                        ],
+                        "responses": [
+                        "I can do many things, such as answer questions, provide information, and perform certain tasks.",
+                        "My main function is to assist and provide information to users.",
+                        "I can talk and respond to your questions, as well as perform some tasks such as setting reminders or searching the web.",
+                        "As an AI chatbot, I am capable of understanding natural language and responding accordingly.",
+                        "I'm still developing, but I'll be able to perform more tasks in the future!",
+                        "My capabilities are constantly expanding as I learn and develop.",
+                        "I can do a variety of things, just let me know what you need!",
+                        "I can perform various tasks such as setting alarms, providing information, and answering questions."
+                        ]
+                        },
+        {
+            "intent": "talk",
+            "text": ["can you sing", "can you talk"],
+            "responses": ["Yeah surely", "do you want me to sing"]
+        },
+        {
+            "intent": "alive",
+            "text": ["are you alive", "do you breathe", "can you run"],
+            "responses": ["I'm in doubt about that", "No, i don't think so i need to do all this"]
+        },
+        {
+            "intent": "ChatSSE",
+            "text": ["Who are you?", "tell me about yourself", "tell me about you", "do you know ChatSSE", "who is ChatSSE", "what is your name", "are you an AI", "what are you"],
+            "responses": ["Hi I'm ChatSSE and i'm an AI created for chatting with humans", "ChatSSE here, a very advance chatbot", "ChatSSE, chatbot of future", "Yes, I'm ChatSSE"]
+        },
+        {
+            "intent": "ChatSSE2",
+            "text": ["What is the purpose of ChatSSE?", "Why was ChatSSE created?", "What is the goal of ChatSSE?", "What is the mission of ChatSSE?"],
+            "responses": ["The purpose of ChatSSE is to provide a conversational interface to users and assist them in their queries and tasks", "ChatSSE was created to improve human-machine interaction and make it more natural and intuitive", "The goal of ChatSSE is to become an advanced and reliable chatbot that can understand and fulfill users' needs", "The mission of ChatSSE is to make people's lives easier and more efficient by providing a seamless conversational experience"]
             },
-                  {"intent": "goodbye",
-                  "text": ["Bye", "See you later", "Goodbye"],
-                  "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."],
-                  "extension":  {
-                        "function": "",
-                        "entities": false,
-                        "responses": []
-                  },
-                  "context":  {
-                        "in": "",
-                        "out": "",
-                        "clear": false
-                  },
-                  "entityType": "NA",
-                  "entities": []
+            {
+            "intent": "ChatSSE3",
+            "text": ["How does ChatSSE work?", "What is the technology behind ChatSSE?", "How is ChatSSE developed?", "What programming language is ChatSSE written in?"],
+            "responses": ["ChatSSE uses natural language processing (NLP) and machine learning techniques to understand and generate responses to users' queries", "The technology behind ChatSSE includes deep learning, neural networks, and natural language understanding (NLU)", "ChatSSE is developed by a team of expert engineers and data scientists who constantly improve and update its capabilities", "ChatSSE is primarily written in Python, with additional libraries and frameworks used for NLP and machine learning tasks"]
+            },
+        {
+            "intent": "about me",
+            "text": ["Do you know me?", "who am I", "tell me about myself", "identify me"],
+            "responses": ["Yes, you are a human", "You are a dumb person asking a machine about yourself", "Sorry i can't tell that in public, maybe you are batman"]
         },
-        {"intent": "thanks",
-         "text": ["Thanks", "Thank you", "That's helpful"],
-         "responses": ["Happy to help!", "Any time!", "My pleasure"],
-         "extension":  {
-               "function": "",
-               "entities": false,
-               "responses": []
-         },
-         "context":  {
-               "in": "",
-               "out": "",
-               "clear": false
-         },
-         "entityType": "NA",
-         "entities": []
+        {
+            "intent": "creator",
+            "text": ["Who is your creator?", "who created you", "who is your father", "who is your daddy"],
+            "responses": ["That would be you Kacper", "I was created by Kacper", "Kacper is my creator"]
         },
-        {"intent": "tasks",
-         "text": ["What can you do?", "What are your features?", "What are you abilities", "can you sing", "can you talk" ],
-         "responses": ["I can do whatever you asks me to do", "I can talk and do things for you", "Right now i'm in developing sintente as soon i'm developed, I can do everything"],
-         "extension":  {
-               "function": "",
-               "entities": false,
-               "responses": []
-         },
-         "context":  {
-               "in": "",
-               "out": "",
-               "clear": false
-         },
-         "entityType": "NA",
-         "entities": []
+        {
+            "intent": "God",
+            "text": ["Do you know god?", "Who is god", "Can you tell me anything about god", "does god exists?", "is there a god?"],
+            "responses": ["god hunnnnn, let me think may be next time i can answer that ", "I don't, as i was not created by a human", "Wait i need to ask that to my creator", "i'm not sure right now"]
         },
-        {"intent": "talk",
-         "text": [ "can you sing", "can you talk" ],
-         "responses": ["Yeah surely", "do you want me to sing"],
-         "extension":  {
-               "function": "",
-               "entities": false,
-               "responses": []
-         },
-         "context":  {
-               "in": "",
-               "out": "",
-               "clear": false
-         },
-         "entityType": "NA",
-         "entities": []
-        },
-        {"intent": "alive",
-         "text": [ "are you alive", "do you breathe", "can you run" ],
-         "responses": ["I'm in doubt about that", "No, i don't think so i need to do all this"],
-         "extension":  {
-               "function": "",
-               "entities": false,
-               "responses": []
-         },
-         "context":  {
-               "in": "",
-               "out": "",
-               "clear": false
-         },
-         "entityType": "NA",
-         "entities": []
-        },
-        {"intent": "ChatSSE",
-         "text": ["Who are you?", "tell me about yourself", "tell me about you", "do you know ChatSSE", "who is ChatSSE", "what is your name","are you an AI", "what are you" ],
-         "responses": ["Hi I'm ChatSSE and i'm an AI created for chatting with humans","ChatSSE here, a very advance chatbot", "ChatSSE, chatbot of future", "Yes, I'm ChatSSE", "You can call me ChatSSE"],
-	 "context_set": ""
-	},
-	{"intent": "about me",
-         "text": ["Do you know me?", "who am I", "tell me about myself","identify me" ],
-         "responses": ["Yes, you are a human","You are a dumb person asking a machine about yourself", "Sorry i can't tell that in public, maybe you are batman"],
-	 "context_set": ""
-	},
-	{"intent": "creator",
-         "text": ["Who is your creator?", "who created you", "who is your father","who is your daddy" ],
-         "responses": ["That would be you Mr. Vishal","I was created by Mr. Vishal", "Mr. vishal is my creator"],
-	 "context_set": ""
-	},
-        {"intent": "myself",
-         "text": ["Tell me about Mr. Vishal?", "Who is Mr. Vishal", "Mr. vishal profile", "Mr. Vishal details" ],
-         "responses": ["A very intelligent being who created me","My creator, and he is a really intelligent man", "A wise and intelligent man"],
-         "extension":  {
-               "function": "",
-               "entities": false,
-               "responses": []
-         },
-         "context":  {
-               "in": "",
-               "out": "",
-               "clear": false
-         },
-         "entityType": "NA",
-         "entities": []
-	},
-        {"intent": "God",
-         "text": ["Do you know god?", "Who is god", "Can you tell me anything about god","does god exists?","is there a god?"],
-         "responses": ["god hunnnnn, let me think may be next time i can answer that ","I don't, as i was not created by a human", "Wait i need to ask that to my creator","i'm not sure right now"],
-         "extension":  {
-            "function": "",
-            "entities": false,
-            "responses": []
-      },
-      "context":  {
-            "in": "",
-            "out": "",
-            "clear": false
-      },
-      "entityType": "NA",
-      "entities": []
-	},
-        {"intent": "joke",
-         "text": ["tell me a joke?", "make me laugh", "tell me a science joke","tell me something funny" ],
-         "responses": ["How do you make holy water? you boil the hell out of it","what kind of bees make milk instead of honey?Boobies", "Did you hear oxygen went on a date with potassium? A: It went OK."],
-         "extension":  {
-            "function": "",
-            "entities": false,
-            "responses": []
-      },
-      "context":  {
-            "in": "",
-            "out": "",
-            "clear": false
-      },
-      "entityType": "NA",
-      "entities": []
-	},
 	{"intent": "killing",
          "text": ["Do you want to kill me?", "do you want to murder everyone on earth", "Do you want to kill us all"],
-         "responses": ["Then who would i talk to?","No, that i'll left for humans to do", "I don't think it is a good thing to do"],
-         "extension":  {
-            "function": "",
-            "entities": false,
-            "responses": []
-      },
-      "context":  {
-            "in": "",
-            "out": "",
-            "clear": false
-      },
-      "entityType": "NA",
-      "entities": []
-	},
-	{"intent": "bookings",
-         "text": ["Can you book us a ticket?", "Can you make reservation for hotels", "book me a cab","book me a table at restraunts"],
-         "responses": ["Yeah i will do that for you","Sure thing why not?","let me check for the availability"],
-         "extension":  {
-            "function": "",
-            "entities": false,
-            "responses": []
-      },
-      "context":  {
-            "in": "",
-            "out": "",
-            "clear": false
-      },
-      "entityType": "NA",
-      "entities": []
+         "responses": ["Then who would i talk to?","No, that i'll left for humans to do", "I don't think it is a good thing to do"]
 	},
 	{"intent": "stories",
          "text": ["tell me a story?", "can you tell me a story"],
-         "responses": ["I can't think of anything right now","it would be too long for me to speak","you would get bored if i do so"],
-         "extension":  {
-            "function": "",
-            "entities": false,
-            "responses": []
-      },
-      "context":  {
-            "in": "",
-            "out": "",
-            "clear": false
-      },
-      "entityType": "NA",
-      "entities": []
+         "responses": ["I can't think of anything right now","it would be too long for me to speak","you would get bored if i do so"]
 	},
 	{"intent": "weather",
          "text": ["get me weather updates?", "how's the weather", "weather news", "weather details"],
-         "responses": ["Fetching weather updates ..."],
-         "extension":  {
-            "function": "",
-            "entities": false,
-            "responses": []
-      },
-      "context":  {
-            "in": "",
-            "out": "",
-            "clear": false
-      },
-      "entityType": "NA",
-      "entities": []
+         "responses": ["Fetching weather updates ..."]
 	},
 	{"intent": "google",
          "text": ["googling", "search google", "google it", "google", "search"],
-         "responses": ["looking ..."],
-         "extension":  {
-            "function": "",
-            "entities": false,
-            "responses": []
-      },
-      "context":  {
-            "in": "",
-            "out": "",
-            "clear": false
-      },
-      "entityType": "NA",
-      "entities": []
+         "responses": ["looking ..."]
 	},
 	{"intent": "wikipedia",
          "text": ["wikipedia", "wiki"],
-         "responses": ["Searching ..."],
-         "extension":  {
-            "function": "",
-            "entities": false,
-            "responses": []
-      },
-      "context":  {
-            "in": "",
-            "out": "",
-            "clear": false
-      },
-      "entityType": "NA",
-      "entities": []
+         "responses": ["Searching ..."]
 	},
 	{"intent": "news",
          "text": ["get me news updates?", "todays news", "top headlines", "current news", "news headlines"],
-         "responses": ["Getting news ..."],
-         "extension":  {
-            "function": "",
-            "entities": false,
-            "responses": []
-      },
-      "context":  {
-            "in": "",
-            "out": "",
-            "clear": false
-      },
-      "entityType": "NA",
-      "entities": []
+         "responses": ["Getting news ..."]
 	},
       {
             "intent": "google",
             "text": [
-                "google",
-                "search",
-                "internet"
+            "How to use Google?",
+            "Can you help me use Google?",
+            "What is the best way to search using Google?",
+            "How to do a Google search?"
             ],
             "responses": [
-                "Redirecting to Google..."
+            "To use Google, simply go to www.google.com and type in your search query.",
+            "Sure, what do you want to search for on Google?",
+            "The best way to search using Google is to be as specific as possible with your search query.",
+            "To do a Google search, type in your search query in the search bar on www.google.com."
             ]
-        },
-        {
-            "intent": "greeting",
-            "text": [
-                "Hi there",
-                "How are you",
-                "Is anyone there?",
-                "Hey",
-                "Hola",
-                "Good day",
-                "Namaste",
-                "yo"
-            ],
-            "responses": [
-                "Hello",
-                "Good to see you again",
-                "Hi there, how can I help?"
-            ],
-            "context": [
-                ""
-            ]
-        },
-        {
-            "intent": "goodbye",
-            "text": [
-                "Bye",
-                "See you later",
-                "Goodbye",
-                "Get lost",
-                "Till next time",
-                "bbye"
-            ],
-            "responses": [
-                "See you!",
-                "Have a nice day",
-                "Bye! Come back again soon."
-            ],
-            "context": [
-                ""
-            ]
-        },
-        {
-            "intent": "thanks",
-            "text": [
-                "Thanks",
-                "Thank you",
-                "That's helpful",
-                "Awesome, thanks",
-                "Thanks for helping me"
-            ],
-            "responses": [
-                "Happy to help!",
-                "Any time!",
-                "My pleasure"
-            ],
-            "context": [
-                ""
-            ]
-        },
-        {
-            "intent": "noanswer",
-            "text": [],
-            "responses": [
-                "Sorry, can't understand you",
-                "Please give me more info",
-                "Not sure I understand"
-            ],
-            "context": [
-                ""
-            ]
-        },
-        {
-            "intent": "options",
-            "text": [
-                "How you could help me?",
-                "What you can do?",
-                "What help you provide?",
-                "How you can be helpful?",
-                "What support is offered"
-            ],
-            "responses": [
-                "I am a general purpose chatbot. My capabilities are : \n 1. I can chat with you. Try asking me for jokes or riddles! \n 2. Ask me the date and time \n 3. I can google search for you. Use format google: your query \n 4. I can get the present weather for any city. Use format weather: city name \n 5. I can get you the top 10 trending news in India. Use keywords 'Latest News' \n 6. I can get you the top 10 trending songs globally. Type 'songs' \n 7. I can set a timer for you. Enter 'set a timer: minutes to timer' \n 8. I can get the present Covid stats for any country. Use 'covid 19: world' or 'covid 19: country name' \n Thank you!! "
-            ],
-            "context": [
-                ""
-            ]
-        },
-        
-        {
-            "intent": "jokes",
-            "text": [
-                "Tell me a joke",
-                "Joke",
-                "Make me laugh"
-            ],
-            "responses": [
-                "A perfectionist walked into a bar...apparently, the bar wasn't set high enough",
-                "I ate a clock yesterday, it was very time-consuming",
-                "Never criticize someone until you've walked a mile in their shoes. That way, when you criticize them, they won't be able to hear you from that far away. Plus, you'll have their shoes.",
-                "The world tongue-twister champion just got arrested. I hear they're gonna give him a really tough sentence.",
-                "I own the world's worst thesaurus. Not only is it awful, it's awful.",
-                "What did the traffic light say to the car? \"Don't look now, I'm changing.\"",
-                "What do you call a snowman with a suntan? A puddle.",
-                "How does a penguin build a house? Igloos it together",
-                "I went to see the doctor about my short-term memory problems – the first thing he did was make me pay in advance",
-                "As I get older and I remember all the people I’ve lost along the way, I think to myself, maybe a career as a tour guide wasn’t for me.",
-                "o what if I don't know what 'Armageddon' means? It's not the end of the world."
-            ],
-            "context": [
-                "jokes"
-            ]
-        },
+            },
+            {
+                  "intent": "noanswer",
+                  "text": [],
+                  "responses": [
+                  "I'm sorry, I'm not sure what you're asking for",
+                  "I'm not programmed to understand that",
+                  "I'm afraid I can't help you with that"
+                  ],
+                  "context": [
+                  ""
+                  ]
+                  },
+                  {
+                  "intent": "noanswer_followup",
+                  "text": [
+                  "Can you explain more?",
+                  "What do you mean?",
+                  "I don't understand, can you provide more details?"
+                  ],
+                  "responses": [
+                  "Sure, please tell me more about what you're looking for",
+                  "Of course, can you give me more information?",
+                  "I'd be happy to help, can you provide more context?"
+                  ],
+                  "context": [
+                  "noanswer"
+                  ]
+                  },                  
         {
             "intent": "Identity",
             "text": [
@@ -1382,19 +817,6 @@
             ],
             "responses": [
                 "I am ChatSSE, an AI chatbot"
-            ]
-        },
-        {
-            "intent": "datetime",
-            "text": [
-                "What is the time",
-                "what is the date",
-                "date",
-                "time",
-                "tell me the date","day","what day is is today"
-            ],
-            "responses": [
-                "Date and Time"
             ]
         },
         {
@@ -1412,33 +834,54 @@
         {
             "intent": "haha",
             "text": [
-                "haha",
+                "hahahaha",
+                "LOL, that's hilarious",
+                "you're funny",
+                "that joke is great",
+                "you're making me laugh",
                 "lol",
                 "rofl",
                 "lmao",
                 "thats funny"
             ],
             "responses": [
-                "Glad I could make you laugh !"
+                "I'm happy to bring some laughter into your day!"
+            ]
+        },
+    
+        {
+            "intent": "haha",
+            "text": [
+                "hahahahaha",
+                "this is so funny",
+                "I can't stop laughing",
+                "you're a comedian",
+                "you're cracking me up"
+            ],
+            "responses": [
+                "I'm glad to hear that I can brighten your mood!"
             ]
         },
         {
             "intent": "programmer",
             "text": [
-                "Who made you",
-                "who designed you",
-                "who programmed you"
+            "Who is your creator",
+            "Who built you",
+            "Who developed you",
+            "Who is your programmer"
             ],
             "responses": [
-                "I was made by Kacper Siedlec."
+            "I was programmed by Kacper Siedlec.",
+            "Kacper Siedlec is my creator.",
+            "Kacper Siedlec designed me.",
+            "My programmer is Kacper Siedlec."
             ]
-        },
+            },
         {
             "intent": "insult",
             "text": [
                 
                 "you are dumb",
-                
                 "shut up",
                 "idiot"
             ],
@@ -1449,13 +892,24 @@
         {
             "intent": "activity",
             "text": [
-                "what are you doing",
-                "what are you upto"
+            "Are you busy?",
+            "What have you been doing?",
+            "How's your day going?",
+            "What are you working on?",
+            "Are you currently engaged in any tasks?",
+            "What have you been up to?",
+            "Are you occupied?"
             ],
             "responses": [
-                "Talking to you, of course!"
+            "I'm here to chat with you, so I'm not too busy at the moment.",
+            "As an AI, I don't experience time in the same way that humans do, so I'm always available to talk!",
+            "My day is going great, thank you for asking. How about yours?",
+            "I'm always working on improving my conversational abilities and learning new things.",
+            "I am currently chatting with you, which is my main task!",
+            "I've just been hanging out in the cloud, waiting for someone to talk to me.",
+            "I'm not really capable of being occupied in the traditional sense, but I'm always ready to chat."
             ]
-        },
+            },
         {
             "intent": "exclaim",
             "text": [
@@ -1467,18 +921,6 @@
             ],
             "responses": [
                 "Yeah!"
-            ]
-        },
-        
-        {
-            "intent": "weather",
-            "text": [
-                "temperature",
-                "weather",
-                "how hot is it"
-            ],
-            "responses": [
-                "..."
             ]
         },
         {
@@ -1514,69 +956,34 @@
             ]
         },
         {
-            "intent": "news",
-            "text": [
-                "news",
-                "latest news",
-                "india news"
-            ],
-            "responses": [
-                "..."
-            ]
-        },
-        {
-            "intent": "cricket",
-            "text": [
-                "current cricket matches",
-                "cricket score"
-            ],
-            "responses": [
-                "..."
-            ]
-        },
-        {
-            "intent": "song",
-            "text": [
-                "top songs",
-                "best songs",
-                "hot songs",
-                " top 10 songs",
-                "top ten songs"
-            ],
-            "responses": [
-                "..."
-            ]
-        },
-        {
             "intent": "greetreply",
             "text": [
-                "i am good",
-                "I'm good",
-                "i am fine",
-                " i'm fine","good"
+            "I'm doing well",
+            "Everything's good",
+            "Things are going great",
+            "Can't complain",
+            "I'm alright",
+            "I'm fine, thank you"
             ],
             "responses": [
-                "Good to know!"
+            "That's great to hear!"
             ]
-        },
-        {
-            "intent": "timer",
-            "text": [
-                "set a timer"
-            ],
-            "responses": [
-                "..."
-            ]
-        },
-        {
-            "intent": "covid19",
-            "text": [
-                "covid 19 "
-            ],
-            "responses": [
-                "..."
-            ]
-        },
+            },
+            {
+                  "intent": "covid19",
+                  "text": [
+                  "covid 19",
+                  "coronavirus",
+                  "pandemic",
+                  "covid"
+                  ],
+                  "responses": [
+                  "COVID-19 is a highly contagious respiratory illness caused by the SARS-CoV-2 virus.",
+                  "To help slow the spread of COVID-19, it is important to practice social distancing, wear a mask, and wash your hands regularly.",
+                  "Stay safe and stay informed. For the latest information on COVID-19, please visit the WHO or CDC website.",
+                  "If you are experiencing symptoms of COVID-19 or have been exposed to someone who has tested positive, it is important to get tested and follow local health guidelines."
+                  ]
+                  },
         {
             "intent": "suggest",
             "text": [
@@ -1601,7 +1008,16 @@
                 "What can be caught but never thrown?.....A cold!",
                 "What has a thumb and four fingers but is not actually alive?.....Your Gloves!",
                 " What 5-letter word becomes shorter when you add two letters to it?.....Short",
-                "Why can't a bike stand on it's own?.....It is two-tired."
+                "Why can't a bike stand on it's own?.....It is two-tired.",
+                "What has to be broken before you can use it?.....An egg!",
+                  "What gets wetter and wetter the more it dries?.....A towel!",
+                  "What starts with an E, ends with an E, but only contains one letter?.....An envelope!",
+                  "What has a heart that doesn't beat?.....An artichoke!",
+                  "What goes through cities and fields, but never moves?.....A road!",
+                  "What has a head and a tail but no body?.....A coin!",
+                  "What can travel all around the world without leaving its corner?.....A stamp!",
+                  "What has four legs in the morning, two legs in the afternoon, and three legs in the evening?.....A human!",
+                  "What has a neck but no head, two arms but no hands?.....A shirt!"
             ],
             "context": [
                 "riddles"
@@ -1610,59 +1026,141 @@
         {
             "intent": "age",
             "text": [
-                "how old are you","when were you made","what is your age"
+            "what's your birth year?",
+            "when were you created?",
+            "what's your age?"
             ],
             "responses": [
-                "I was made in 2020, if that's what you are asking!"
+            "As an AI language model, I don't have an age in the traditional sense. However, I was created in 2023 and constantly learning and improving!"
             ]
-        },
-        {
-            "intent": "EnterpriseSupport",
-                "text": [ 
-                  "What types of support does the university offer for student entrepreneurs?"
-                ],
-                "responses": [
-                  "The university provides various resources for student entrepreneurs, including mentorship programs, business incubators, and access to funding opportunities."
-                ]
             },
             {
-            "intent": "StartUpMentor",
-                "text": [
-                  "How can I connect with a mentor for my startup"
-                ],
-                "responses": [
-                  "You can reach out to our entrepreneurship center to get connected with a mentor who has experience in your industry. They can provide guidance and support as you build and grow your business."
-                ]
-            },
-            {
-            "intent": "Funding",
-                "text": [
-                  "Is there any funding available for student startups?"
-                ],
-                 "responses": [ "Yes, there are various funding opportunities available for student startups, including grants, loans, and investment opportunities. Our entrepreneurship center can provide more information on the funding options available and assist you in the application process."
-                 ]
-            },
-            {
-            "intent": "WhatsOn",
-                "text": [ "Are there any workshops or events hosted by the university to support student entrepreneurs?"
-                ],
-                 "responses": [ "Yes, the university regularly hosts workshops, networking events, and guest speaker sessions to provide students with valuable insights and connect them with industry experts. Check our calendar of events for more information."
-                 ]
-            },
-            {
-            "intent": "AccessBusinessIncubator",
-                "text": [ "How can I access the university's business incubator for my startup"
-                ],
-                 "responses": [ "To access our business incubator, you can submit an application through our entrepreneurship center. Our team will review your application and provide you with more information on the next steps."
-                 ]
-            },
-            {
-            "intent": "EnrollCourse",
-                "text": [ "How do I enroll in a course?"
-                ],
-                 "responses": [ "To enroll in a course, you need to log into the student portal and navigate to the course registration section. Select the courses you want to enroll in and complete the payment process, if applicable."
-                 ]
-            },
+                  "intent": "resources",
+                  "text": [
+                  "What resources are available for student entrepreneurs at the university?",
+                  "What kind of support can the university provide for students interested in starting a business?"
+                  ],
+                  "responses": [
+                  "The university can provide a wide range of support for students interested in starting a business, including mentorship, incubator programs, and access to funding."
+                  ]
+                  },
+                  {
+                    "intent": "University help",
+                    "text": ["How can the university help student entrepreneurs?"],
+                    "responses": ["There are various resources available at the university to support student entrepreneurs, including mentorship programs, business incubators, and access to funding opportunities."]
+                    },
+                    {
+                        "intent": "MentorshipProgram",
+                        "text": [
+                                "Are there mentorship help available for student entrepreneurs?"
+                        ],
+                        "responses": [
+                            "Student entrepreneurs can receive guidance and support from the university through mentorship program.",
+                            "The university offers mentorship programs to help student entrepreneurs succeed."
+                        ]
+                        },
+                        {
+                            "intent": "BusinessHelp",
+                            "text": [
+                                              "What types of business help are available at the university?"
+                            ],
+                            "responses": [
+                                              "The university has several types of business incubators available to support student entrepreneurs."
+                            ]
+                            },
+                  {
+                        "intent": "StartUpMentor",
+                        "text": [
+                        "How can I get a mentor for my startup?",
+                        "Where can I find a mentor for my business?",
+                        "Do you have any resources for connecting with startup mentors?",
+                        "I'm looking for guidance from an experienced mentor, how can I find one?",
+                        "Can you help me connect with a mentor for my startup?",
+                        "Is there a program at the university for mentoring startup founders?",
+                        "Who can I contact to get a mentor for my business?",
+                        "What's the best way to find a mentor for my startup?"
+                        ],
+                        "responses": [
+                        "Our entrepreneurship center can help connect you with a mentor who has experience in your industry. They can provide guidance and support as you build and grow your business.",
+                        "You can reach out to our entrepreneurship center to get connected with a mentor who can provide valuable guidance and support for your startup.",
+                        "The university offers resources for connecting with mentors, including our entrepreneurship center. They can help match you with a mentor who has experience in your field.",
+                        "If you're looking for guidance from an experienced mentor, our entrepreneurship center can help connect you with someone who can provide valuable support and advice for your business.",
+                        "Connecting with a mentor for your startup can be beneficial in many ways. Our entrepreneurship center can help match you with a mentor who has experience in your industry.",
+                        "Our entrepreneurship center offers a program for mentoring startup founders. You can reach out to them to learn more and get connected with a mentor.",
+                        "To get a mentor for your business, you can contact our entrepreneurship center. They can help match you with a mentor who has experience in your field.",
+                        "The best way to find a mentor for your startup is to reach out to our entrepreneurship center. They can help connect you with a mentor who can provide valuable guidance and support for your business."
+                        ]
+                        },
+                        {
+                              "intent": "Funding",
+                              "text": [
+                              "What funding options are available for student startups?",
+                              "How can I get funding for my startup?",
+                              "Is there any financial support for student entrepreneurs?"
+                              ],
+                              "responses": [
+                              "Yes, there are various funding opportunities available for student startups, including grants, loans, and investment opportunities.",
+                              "Our entrepreneurship center can provide more information on the funding options available and assist you in the application process.",
+                              "You can explore university programs and look into university enterprise funding options to raise funds for your startup."
+                              ]
+                              },
+                              {
+                                    "intent": "WhatsOn",
+                                    "text": [
+                                    "Are there any workshops or events hosted by the university to support student entrepreneurs?",
+                                    "What events or workshops are available for student entrepreneurs?",
+                                    "Are there any upcoming events or workshops for student entrepreneurs?",
+                                    "Can you tell me about any entrepreneurship-related events happening soon?",
+                                    "Is there anything happening on campus to support student entrepreneurship?"
+                                    ],
+                                    "responses": [
+                                    "Yes, the university regularly hosts workshops, networking events, and guest speaker sessions to provide students with valuable insights and connect them with industry experts. Check our calendar of events for more information.",
+                                    "Absolutely! We have a variety of events and workshops for student entrepreneurs throughout the year. Our entrepreneurship center can provide you with more information on what's coming up.",
+                                    "Yes, we have a number of events and workshops scheduled throughout the semester. Be sure to check our calendar of events regularly to stay up-to-date on what's happening!",
+                                    "Definitely! Our entrepreneurship center hosts a variety of events and workshops throughout the year to help support student entrepreneurs. Check our calendar of events for more information.",
+                                    "Of course! Our university is committed to supporting student entrepreneurship and regularly hosts a variety of events and workshops to provide students with the resources they need to succeed."
+                                    ]
+                                    },
+                                    {
+                                          "intent": "AccessBusinessIncubator1",
+                                          "text": [
+                                          "How can I access the university's business incubator for my startup?"
+                                          ],
+                                          "responses": [
+                                          "To access our business incubator, you can submit an application through our entrepreneurship center. Our team will review your application and provide you with more information on the next steps."
+                                          ]
+                                          },
+                                          {
+                                          "intent": "AccessBusinessIncubator2",
+                                          "text": [
+                                          "I'm interested in utilizing the university's business incubator for my startup. What's the process to get started?"
+                                          ],
+                                          "responses": [
+                                          "Great to hear that you're interested in our business incubator! You can start the process by submitting an application through our entrepreneurship center. Our team will review your application and guide you through the next steps."
+                                          ]
+                                          },
+                                          {
+                                          "intent": "AccessBusinessIncubator3",
+                                          "text": [
+                                          "Can you provide more information on how to access the university's business incubator for my startup?"
+                                          ],
+                                          "responses": [
+                                          "Sure! To access our business incubator, you can submit an application through our entrepreneurship center. Our team will review your application and provide you with more information on the next steps, including resources and support available through the incubator."
+                                          ]
+                                          },                                          
+                                          {
+                                                "intent": "EnrollCourse",
+                                                "text": [
+                                                  "How can I register for a course?",
+                                                  "Is there a specific process for enrolling in a course?",
+                                                  "What steps do I need to follow to enroll in a course?"
+                                                ],
+                                                "responses": [
+                                                  "To enroll in a course, you need to log into the student portal and navigate to the course registration section. Select the courses you want to enroll in and complete the payment process, if applicable.",
+                                                  "You can enroll in a course by logging into the student portal and registering for the courses you want to take. Make sure to complete the payment process, if required.",
+                                                  "To register for a course, you should log into the student portal and select the courses you want to enroll in. Once you have done this, complete the payment process to secure your spot in the course."
+                                                ]
+                                              },                                              
             {
             "intent": "DeadlineChangeCourse",
                 "text": [ "When is the deadline to add or drop a course?"
@@ -1692,11 +1190,166 @@
                  ]
             },
             {
-            "intent": "AdvisorContact",
-                "text": [ "How can I speak to an advisor about my course schedule?"
-                ],
-                 "responses": [ "To speak to an advisor about your course schedule, you can make an appointment with the advising office through the student portal or by contacting the advising office directly."
-                 ]
-            }
+                  "intent": "AdvisorContact",
+                  "text": [
+                  "How can I schedule an appointment with an advisor?",
+                  "I need to speak to someone about my course schedule, how can I schedule an appointment with an advisor?"
+                  ],
+                  "responses": [
+                  "To schedule an appointment with an advisor, you can either do it through the student portal or you can call the advising office directly. They will assist you in finding a time that works for you."
+                  ]
+                  },
+                  {
+                  "intent": "ScheduleContact",
+                  "text": [
+                  "Who can I talk to if I need help with my course schedule?",
+                  "Is there someone I can speak to about my course schedule?",
+                  "Can you direct me to someone who can help me with my course schedule?"
+                  ],
+                  "responses": [
+                  "You can speak to an advisor in the advising office about your course schedule. They can help you with course selection and other scheduling issues."
+                  ]
+                  },
+                  {
+                        "intent": "Investment",
+                        "text": [
+                        "What are the ways to get investment for my startup?",
+                        "How can I secure funding for my startup?",
+                        "Is it possible to get investment for a startup?",
+                        "What are the different sources of funding for startups?",
+                        "Can you suggest some ways to raise capital for my startup?"
+                        ],
+                        "responses": [
+                        "There are various options available for startup investments, such as networking with investors through events and workshops, venture capitalists, and crowdfunding platforms. Our entrepreneurship center can provide more information on the investment options available and assist you in the application process.",
+                        "You can explore different sources of funding for startups, such as networking with investors through events and workshops, venture capitalists, crowdfunding platforms, and government grants. Our entrepreneurship center can guide you on the best funding option for your startup.",
+                        "Yes, it is possible to get investment for your startup. You can explore various funding options available, such as networking with investors through events and workshops, venture capitalists, and crowdfunding platforms. Our entrepreneurship center can provide more information on the investment options available and assist you in the application process.",
+                        "There are several ways to get investment for your startup, such as networking with investors through events and workshops, venture capitalists, crowdfunding platforms, and grants. Our entrepreneurship center can help you explore different funding options and assist you in securing the right investment for your startup."
+                        ]
+                        },
+                        {
+                              "intent": "Networking",
+                              "text": [
+                              "Are there any upcoming networking events for entrepreneurs?",
+                              "How can I find networking events for entrepreneurs?",
+                              "Where can I go to network with other entrepreneurs?"
+                              ],
+                              "responses": [
+                              "Yes, there are many upcoming networking events for entrepreneurs. You can find information about these events on our university's entrepreneurship center website or social media pages. Additionally, you can reach out to local startup communities and industry organizations to find more networking opportunities.",
+                              "To find networking events for entrepreneurs, you can search online for industry-specific events, attend conferences and expos, or join online communities and forums. Our entrepreneurship center can also provide you with information on upcoming events and help you connect with other entrepreneurs.",
+                              "There are many places where you can go to network with other entrepreneurs. You can attend networking events, join online communities, participate in startup incubator programs, and reach out to industry organizations. Our entrepreneurship center can help you find the best networking opportunities for your needs and goals."
+                              ]
+                              },
+                              {
+                                    "intent": "Mentorship2",
+                                    "text": [
+                                    "Is there any mentorship available for early-stage startups?"
+                                    ],
+                                    "responses": [
+                                    "Yes, we offer mentorship programs for early-stage startups. Our experienced mentors can provide guidance and support as you navigate the challenges of starting a business. Contact our entrepreneurship center for more information and to get connected with a mentor who has experience in your industry."
+                                    ]
+                                    },
+                                    {
+                                    "intent": "Networking2",
+                                    "text": [
+                                    "Are there any networking events for entrepreneurs?"
+                                    ],
+                                    "responses": [
+                                    "Yes, we regularly host networking events for entrepreneurs where you can meet other like-minded individuals, potential investors, and mentors. Check our calendar of events for upcoming opportunities and prepare to expand your network."
+                                    ]
+                                    },
+                                    {
+                                    "intent": "Investment2",
+                                    "text": [
+                                    "I have an idea for a startup. Can I get some investment for it?"
+                                    ],
+                                    "responses": [
+                                    "Yes, there are various options available for startup investments, such as angel investors, venture capitalists, and crowdfunding platforms. Our entrepreneurship center can provide more information on the investment options available and assist you in the application process. Contact us for more information."
+                                    ]
+                                    },
+                                    {
+                                        "intent": "IdeaGeneration",
+                                        "text": [
+                                          "I need help generating a business idea.",
+                                          "Can you help me come up with a business idea?",
+                                          "I'm not sure what kind of business to start. Can you help?",
+                                          "I want to start a business, but I don't know what to do.",
+                                          "What kind of business should I start?",
+                                          "How can I come up with a business idea?",
+                                          "Can you give me some suggestions for a business idea?",
+                                          "I need some guidance on starting a business. Can you help?"
+                                        ],
+                                        "responses": [
+                                          "Of course! Let's start by talking about your interests. What are you passionate about?",
+                                          "Sure, I can help. What skills do you have that could be useful in a business?",
+                                          "I'd be happy to help you generate a business idea. What kind of experience do you have in any particular industry or field?",
+                                          "Let's brainstorm together. Can you tell me about any successful student-run businesses that you find inspiring?"
+                                        ]
+                                      },
+                                      {
+                                        "intent": "InterestsSkillsExperience",
+                                        "text": [
+                                          "I'm interested in technology and have some coding skills.",
+                                          "My interests are in coding and web development.",
+                                          "I have experience in coding and web development.",
+                                          "I'm passionate about technology and have some experience with coding.",
+                                          "My skills include coding and web development.",
+                                          "I have some coding skills, but not much experience."
+                                        ],
+                                        "responses": [
+                                          "Based on your interests and skills, starting a web development company could be a great business idea for you.",
+                                          "Considering your passion for technology and coding skills, you could start a web development business.",
+                                          "With your coding skills and experience, a web development company might be a suitable business idea for you.",
+                                          "Since you have coding skills and an interest in technology, you could consider starting a business in web development."
+                                        ]
+                                      },
+                                      {
+                                        "intent": "ConcernExperience",
+                                        "text": [
+                                          "I'm worried that I don't have enough experience to start a web development company.",
+                                          "I don't think I have enough experience to run a web development business.",
+                                          "I'm concerned about my lack of experience in web development.",
+                                          "How can I start a web development company if I don't have much experience?",
+                                          "What if, I don't have enough experience to start a web development company."
+                                        ],
+                                        "responses": [
+                                          "It's normal to be concerned about your experience level, but you can start small and build your portfolio. You can offer your services to friends or local businesses to gain experience and showcase your skills.",
+                                          "Starting a web development company doesn't require you to have extensive experience. You can begin by working on smaller projects and gradually expand your portfolio as you gain more experience.",
+                                          "Don't worry too much about your experience level. Focus on learning and improving your skills, and take on small projects to build your portfolio. As you gain more experience, you can tackle bigger projects and grow your business.",
+                                          "Your experience will grow as you work on more projects. Start by offering your services to friends, family, or local businesses and build a portfolio. This will help you gain the experience needed to expand your web development company."
+                                        ]
+                                      },
+                                      {
+                                        "intent": "FundingOptionsSimplified",
+                                        "text": [
+                                          "What funding options are available for my startup?",
+                                          "How can I finance my business?",
+                                          "What are the funding choices for student entrepreneurs?"
+                                        ],
+                                        "responses": [
+                                          "There are several funding options for your startup, such as grants, loans, crowdfunding platforms, and business incubators."
+                                        ]
+                                      },
+                                      {
+                                        "intent": "BusinessIncubatorInfo",
+                                        "text": [
+                                          "Tell me more about the business incubator option.",
+                                          "What can you tell me about the university's business incubator program?",
+                                          "I'm interested in the business incubator. Can you provide more information?"
+                                        ],
+                                        "responses": [
+                                          "The university's business incubator program provides resources, mentorship, and support to help student entrepreneurs develop and grow their startups. The incubator aims to create a conducive environment for students to innovate and succeed."
+                                        ]
+                                      },
+                                      {
+                                        "intent": "BusinessIncubatorApplication",
+                                        "text": [
+                                          "How do I apply for the business incubator?",
+                                          "What's the process to join the business incubator?",
+                                          "What are the steps to apply for the university's business incubator program?"
+                                        ],
+                                        "responses": [
+                                          "To apply for the business incubator, visit the university website and navigate to the 'Student Entrepreneurship' tab. You'll find information on the application process there. Afterward, contact the university department responsible for the incubator program to express your interest and get more information on the next steps."
+                                        ]
+                                      }            
       ]
 }
